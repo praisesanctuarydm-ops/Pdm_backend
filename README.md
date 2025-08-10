@@ -42,3 +42,6 @@ It supports **PostgreSQL** in production (Railway) and falls back to **SQLite** 
    ```bash
    git clone https://github.com/yourusername/pdm-backend.git
    cd pdm-backend
+npm install
+cp .env.example .env
+npm run dev
