@@ -22,3 +22,23 @@
     "nodemon": "^3.0.1"
   }
 }
+# Praise Deliverance Ministries Backend
+
+Backend API prototype for Praise Deliverance Ministries, built with **Node.js**, **Express**, and **Sequelize**.  
+It supports **PostgreSQL** in production (Railway) and falls back to **SQLite** for local development.
+
+## Features
+- 📖 **Prayers Catalogue** – Retrieve and store prayers
+- 🗣 **Testimonies** – Submit testimonies
+- 📅 **Schedules** – View and add church service schedules
+- 📜 **Daily Scripture** – Random verse endpoint
+- 📄 **Swagger Docs** – Auto-generated API documentation
+
+---
+
+## 📦 Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/pdm-backend.git
+   cd pdm-backend
